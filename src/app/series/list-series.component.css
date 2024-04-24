@@ -1,0 +1,38 @@
+/* Estilos para la tabla de series */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Estilos para las filas impares de la tabla */
+  .table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  /* Estilos para el hover sobre las filas de la tabla */
+  .table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  /* Estilos para el contenido de la tabla */
+  .table td {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
